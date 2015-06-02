@@ -36,7 +36,4 @@ describe('POST /', function(){
         }
     );
 
-    function hasInvalidRespose(res) {
-        return JSON.parse(res.text) === '';
-    }
 });
