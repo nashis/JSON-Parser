@@ -11,5 +11,5 @@ var server = http.createServer(function(req, res) {
     require('./routes').get(req, res);
 });
 
-server.listen(httpPort, httpIP);
+server.listen(process.env.PORT || httpPort, httpIP);
 console.log('listening to http://' + httpIP + ':' + httpPort);
