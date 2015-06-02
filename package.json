@@ -1,0 +1,23 @@
+{
+  "name": "MI9-JSON-Challenge",
+  "version": "0.1.0",
+  "description": "Service to parse JSON data and returned defined fields",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --timeout 5000 --recursive spec/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nashis/JSON-Parser"
+  },
+  "keywords": [
+    "node",
+    "heroku"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1"
+  }
+}
